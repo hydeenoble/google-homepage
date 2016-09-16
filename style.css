@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.google-img{
+    //border: 1px solid black;
+    height: 131px;
+    width: 383px;
+    margin-top: 160px;
+    background-image: url("images/index.png");
+    background-repeat: no-repeat;
+}
+
+.nigeria-text{
+    //border: 1px solid red;
+    position: relative;
+    left:140px;
+    top: 100px;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #0000E6;
+}
+
+.input-text{
+    padding-top: 30px;
+
+}
+
+.input-text input{
+    height: 35px;
+    width: 700px;
+    border: 1px solid #A4A4A4;
+}
+
+.buttons{
+    padding-top: 30px;
+}
+
+.buttons input[type = "submit"]{
+    font-weight: bold;
+    height: 40px;
+    width:150px;
+    background-color: #E8E8E8;
+    border-style: solid;
+    color: #A4A4A4;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons input[type = "submit"]:hover{
+    color: #111111;
+    border: 1.5px dotted black;
+}
+.lang{
+    padding-top: 30px;
+    font-size: small;
+
+}
+
+.lang a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.lang a:hover{
+    text-decoration: underline;
+}
+
+
+.footer{
+    background-color: #E8E8E8;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    padding: 0px;
+    margin:0px;
+
+
+}
+
+.footer ul{
+    list-style-type: none;
+    display: inline-block;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.footer .left li{
+    float: left;
+    padding-right: 25px;
+}
+
+.footer .right{
+    position: absolute;
+    right: 0;
+    margin-right:10px;
+}
+
+.footer .right li{
+    float: left;
+    padding-right: 25px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #616161;
+    font-size: small;
+    padding: 0px;
+}
+
